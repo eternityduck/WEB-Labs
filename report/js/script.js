@@ -1,4 +1,8 @@
 let canvas = document.getElementById('canvas');
+
+
+// LAB_1 Buttons
+
 let btn11 = document.getElementById("1btn1").addEventListener("click", function() {
     canvas.setAttribute("src", 'labsFrames/lab1/lab1intro.html')
 });
