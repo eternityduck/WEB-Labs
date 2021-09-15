@@ -19,6 +19,7 @@ body {
 .title{
   font-size: 36px;
   transition: .2s linear;
+  
 }
 .title:hover{
   cursor: pointer;
@@ -75,6 +76,7 @@ li:active{
 .image{
   max-width: 300px;
   height: auto;
+  animation: 3s linear 1s infinite alternate slidein;
 }
 
 .form {
@@ -139,4 +141,14 @@ select option {
 .check {
   margin: 20px;
 }
-
+.image:hover{
+  animation: .5s linear 1s infinite alternate slidein;
+}
+@keyframes animate {
+  from {
+    bottom: 0;
+  }
+  to{
+    bottom:30px;
+  }
+}
