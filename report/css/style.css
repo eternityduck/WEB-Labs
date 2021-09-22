@@ -296,3 +296,13 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.id-code {
+    width: 80%;
+    height: auto;
+}
+
+.id-img {
+    width: 80%;
+    height: auto;
+}
