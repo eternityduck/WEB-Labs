@@ -1,0 +1,12 @@
+D:\WEB-Labs\ForumWebMVC\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\WEB-Labs\ForumWebMVC\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+D:\WEB-Labs\ForumWebMVC\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+D:\WEB-Labs\ForumWebMVC\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\WEB-Labs\ForumWebMVC\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
