@@ -1,0 +1,12 @@
+D:\WEB-Labs\ForumWebMVC\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+D:\WEB-Labs\ForumWebMVC\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+D:\WEB-Labs\ForumWebMVC\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\WEB-Labs\ForumWebMVC\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\WEB-Labs\ForumWebMVC\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.AssemblyReference.cache
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
