@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -26,6 +27,7 @@ namespace BLL.Services
         {
             return await _context.Comments.Include(x => x.Post).ThenInclude(x => x.Topic)
                 .Include(x => x.Post).ThenInclude(x => x.Author).FirstOrDefaultAsync(x => x.Id == id);
+            
         }
         
         public async Task UpdateAsync(Comment model)

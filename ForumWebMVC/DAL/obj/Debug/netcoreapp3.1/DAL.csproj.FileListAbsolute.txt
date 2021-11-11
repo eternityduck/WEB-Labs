@@ -10,3 +10,4 @@ D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs
 D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+D:\WEB-Labs\ForumWebMVC\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig

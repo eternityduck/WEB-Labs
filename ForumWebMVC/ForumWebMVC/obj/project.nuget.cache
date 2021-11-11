@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ARPYHYYQWgKBYK2/5Kvy5r2Wx+ri+GTS/VPblDIcJAMjxz74fNHIwWOwsmMCS1Ya2GE7x9vtSPrWhgJ/APqIgQ==",
+  "dgSpecHash": "xvlVxUMnqELC6MJruC7jDJEC41hNCQ5s30lVLy0H8HDFvktv9hME5CHGLN009KInSPS6h/Ors28aAU3sUYAv/g==",
   "success": true,
   "projectFilePath": "D:\\WEB-Labs\\ForumWebMVC\\ForumWebMVC\\ForumWebMVC.csproj",
   "expectedPackageFiles": [
@@ -115,7 +115,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }
