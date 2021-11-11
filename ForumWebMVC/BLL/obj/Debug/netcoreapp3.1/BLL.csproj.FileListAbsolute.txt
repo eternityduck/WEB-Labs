@@ -10,3 +10,4 @@ D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs
 D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+D:\WEB-Labs\ForumWebMVC\BLL\obj\Debug\netcoreapp3.1\BLL.GeneratedMSBuildEditorConfig.editorconfig

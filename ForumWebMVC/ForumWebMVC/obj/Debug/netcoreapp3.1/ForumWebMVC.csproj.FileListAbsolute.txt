@@ -78,8 +78,6 @@ D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.MvcAppli
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.RazorAssemblyInfo.cache
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.RazorAssemblyInfo.cs
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\staticwebassets\ForumWebMVC.StaticWebAssets.Manifest.cache
-D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\staticwebassets\ForumWebMVC.StaticWebAssets.xml
-D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\scopedcss\bundle\ForumWebMVC.styles.css
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.TagHelpers.input.cache
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.TagHelpers.output.cache
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.RazorCoreGenerate.cache
@@ -117,3 +115,4 @@ D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.csproj.C
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.dll
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.pdb
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.genruntimeconfig.cache
+D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.GeneratedMSBuildEditorConfig.editorconfig
