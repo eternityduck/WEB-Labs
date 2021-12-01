@@ -1,15 +1,17 @@
 ﻿@model Forum.ViewModels.TopicViewModel.TopicIndexViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+ 
+@inject IViewLocalizer Localizer
 
 <div class="container body-content">
     <div class="row sectionHeader">
-        <div class="sectionHeading">Browse Forums</div>
         <div class="sectionDescription">
-            <p>Welcome to <strong>Lambda Forums community</strong>. Posts are broadly categorized into separate forums by programming language or area of interest.</p>
+            <p>@Localizer["Welcome to"] <strong>@Localizer["Lambda Forums community"]</strong>. @Localizer["Posts are broadly categorized into separate forums by programming language or area of interest"].</p>
             <p>
-                Please read the Forum Guidelines before creating a new post.
+                @Localizer["Please read the Forum Guidelines before creating a new post"].
                 @if (Context.User.Identity.IsAuthenticated)
                 {
-                    <span>You must be a <a asp-controller="Account" asp-action="Register">registered member</a> to create a new post.</span>
+                    <span>@Localizer["You must be a"] <a asp-controller="Account" asp-action="Register">@Localizer["registered member"]</a>@Localizer["to create a new post"] .</span>
                 }
             </p>
         </div>

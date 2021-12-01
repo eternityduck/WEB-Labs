@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Welcome to the" xml:space="preserve">
+        <value>Добро пожаловать на</value>
+        <comment>Welcome to the</comment>
+    </data>
+    <data name="forum. Please keep posts friendly and on-topic" xml:space="preserve">
+        <value>форум. Пожалуйста, пишите посты по теме</value>
+        <comment>forum. Please keep posts friendly and on-topic</comment>
+    </data>
+    <data name="Please read the Forum Guidelines before creating a new post" xml:space="preserve">
+        <value>Прочитайте правила Форума перед созданием поста</value>
+        <comment>Please read the Forum Guidelines before creating a new post</comment>
+    </data>
+    <data name="You must be a" xml:space="preserve">
+        <value>Вы должны быть</value>
+        <comment>You must be a</comment>
+    </data>
+    <data name="registered member" xml:space="preserve">
+        <value>зарегистрированным пользователем</value>
+        <comment>registered member</comment>
+    </data>
+    <data name="to create a new post" xml:space="preserve">
+        <value>чтобы создать новый пост</value>
+        <comment>to create a new post</comment>
+    </data>
+    <data name="Forum" xml:space="preserve">
+        <value>Forum</value>
+        <comment>Forum</comment>
+    </data>
+    <data name="Search..." xml:space="preserve">
+        <value>Поиск...</value>
+        <comment>Search...</comment>
+    </data>
+    <data name="search" xml:space="preserve">
+        <value>поиск</value>
+        <comment>search</comment>
+    </data>
+    <data name="Create Post" xml:space="preserve">
+        <value>Создать пост</value>
+        <comment>Create Post</comment>
+    </data>
+    <data name="No search results found for" xml:space="preserve">
+        <value>Нет результатов</value>
+        <comment>No search results found for</comment>
+    </data>
+    <data name="question_answer" xml:space="preserve">
+        <value>вопрос</value>
+        <comment>question_answer</comment>
+    </data>
+    <data name="Replies" xml:space="preserve">
+        <value>Комментарии</value>
+        <comment>Replies</comment>
+    </data>
+</root>

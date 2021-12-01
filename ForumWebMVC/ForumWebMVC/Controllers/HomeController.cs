@@ -9,8 +9,16 @@ using Forum.ViewModels;
 using Forum.ViewModels.Home;
 using Forum.ViewModels.PostViewModel;
 using Forum.ViewModels.TopicViewModel;
+using ForumWebMVC;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Forum.Controllers
 {
@@ -18,14 +26,17 @@ namespace Forum.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IPostService _postService;
+       
         public HomeController(ILogger<HomeController> logger, IPostService postService)
         {
             _logger = logger;
             _postService = postService;
+            
         }
 
         public IActionResult Index()
         {
+            
             var model = BuildHome();
             return View(model);
         }
@@ -43,8 +54,9 @@ namespace Forum.Controllers
                 AuthorId = x.Author.Id,
                 DatePosted = x.CreatedAt.ToString(),
                 RepliesCount = _postService.GetCommentsCount(x.Id),
-                //Topic = BuildTopicList(x)
             });
+            string json = JsonSerializer.Serialize(posts);
+            System.IO.File.WriteAllText(@"D:\path.json", json);
             
             return new HomeIndexViewModel()
             {
@@ -73,6 +85,18 @@ namespace Forum.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+        
+        [HttpPost]
+        public IActionResult SetLanguage(string culture, string returnUrl)
+        {
+            Response.Cookies.Append(
+                CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+                new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
+            );
+ 
+            return LocalRedirect(returnUrl);
         }
     }
 }

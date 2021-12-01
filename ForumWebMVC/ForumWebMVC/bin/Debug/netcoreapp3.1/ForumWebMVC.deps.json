@@ -311,6 +311,17 @@
         "runtime": {
           "ForumWebMVC.dll": {}
         },
+        "resources": {
+          "de/ForumWebMVC.resources.dll": {
+            "locale": "de"
+          },
+          "en/ForumWebMVC.resources.dll": {
+            "locale": "en"
+          },
+          "ru/ForumWebMVC.resources.dll": {
+            "locale": "ru"
+          }
+        },
         "compile": {
           "ForumWebMVC.dll": {}
         }

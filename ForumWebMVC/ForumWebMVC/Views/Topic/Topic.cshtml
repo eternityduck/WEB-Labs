@@ -1,30 +1,33 @@
 ﻿@model Forum.ViewModels.TopicViewModel.TopicResultViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+ 
+@inject IViewLocalizer Localizer
 
 <div class="container body-content">
     <div class="row sectionHeader">
         <div class="sectionHeading">
-            <span id="results">@Model.Topic.Name Forum</span>
+            <span id="results">@Model.Topic.Name @Localizer["Forum"]</span>
             @if (Context.User.Identity.IsAuthenticated)
             {
-                <span id="headingBtn"><a asp-controller="Post" asp-action="Create" asp-route-id="@Model.Topic.Id" class="btn btn-newPost">Create Post</a></span>
+                <span id="headingBtn"><a asp-controller="Post" asp-action="Create" asp-route-id="@Model.Topic.Id" class="btn btn-newPost">@Localizer["Create Post"]</a></span>
             }
             <form asp-controller="Topic" asp-action="Search" method="post">
                 <div class="searchForm">
-                    <input asp-for="SearchQuery" type="text" placeholder="Search..." class="searchBar" onfocus="clearThis(this)">
+                    <input asp-for="SearchQuery" type="text" placeholder="@Localizer["Search..."]" class="searchBar" onfocus="clearThis(this)">
                     <button type="submit" class="btn buttonSearch">
-                        <i class="material-icons">search</i>
+                        <i class="material-icons">@Localizer["search"]</i>
                     </button>
                 </div>
                 <input asp-for="Topic.Id" name="id" type="hidden" />
             </form>
         </div>
         <div class="sectionDescription">
-            <p>Welcome to the <strong>@Model.Topic.Name</strong> forum. Please keep posts friendly and on-topic.</p>
+            <p>@Localizer["Welcome to the"] <strong>@Model.Topic.Name</strong> @Localizer["forum. Please keep posts friendly and on-topic"].</p>
             <p>
-                Please read the Forum Guidelines before creating a new post.
+                @Localizer["Please read the Forum Guidelines before creating a new post"].
                 @if (!Context.User.Identity.IsAuthenticated)
                 {
-                    <span>You must be a <a asp-controller="Account" asp-action="Register">registered member</a> to create a new post.</span>
+                    <span>@Localizer["You must be a"] <a asp-controller="Account" asp-action="Register">@Localizer["registered member"]</a> @Localizer["to create a new post"].</span>
                 }
             </p>
         </div>
@@ -56,7 +59,7 @@
                             </td>
                             <td>
                                 <div class="forumPostCount">
-                                    Replies: @post.RepliesCount
+                                    @Localizer["Replies"]: @post.RepliesCount
                                 </div>
                             </td>
                             <td>
@@ -70,24 +73,15 @@
         else if (@Model.EmptySearchResults)
         {
             <div class="noPosts">
-                <i class="material-icons md-72">question_answer</i>
+                <i class="material-icons md-72">@Localizer["question_answer"]</i>
                 <h3>
-                    No search results found for @Model.SearchQuery! <br />
+                    @Localizer["No search results found for"] @Model.SearchQuery! <br />
                 </h3>
             </div>
 
         }
 
-        else 
-        {
-            <div class="noPosts">
-                <i class="material-icons md-72">question_answer</i>
-                <h3>
-                    It looks like there are no @Model.Topic.Name posts yet. <br />
-                    Why not <a asp-controller="Post" asp-action="Create" asp-route-id="@Model.Topic.Id"><span>Create One?</span></a>
-                </h3>
-            </div>
-        }
+        
     </div>
 </div>
 

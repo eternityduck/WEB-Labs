@@ -1,15 +1,24 @@
 ﻿@model Forum.ViewModels.Home.HomeIndexViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@using ForumWebMVC
+ 
+@inject IViewLocalizer Localizer
+ 
+
+ 
+<h1>@Localizer["Header"]</h1>
+
 
 <div class="container body-content">
     <div class="row frontPageSplash">
         <div class="col-md-6 frontPageLearn">
-            <div class="frontPageHeading">Learn, Collaborate, Share Knowledge</div>
-            <p class="frontPageSubHeading">This IT-forum is the world's fastest growing coding forum.</p>
+            <div class="frontPageHeading">@Localizer["MessageLearn"]</div>
+            <p class="frontPageSubHeading">@Localizer["For what this forum"]</p>
             <div>
                 <form asp-controller="Search" asp-action="Search" method="post">
-                    <input asp-for="SearchQuery" type="text" class="homeSearch" placeholder="Search..."/>
+                    <input asp-for="SearchQuery" type="text" class="homeSearch" placeholder="@Localizer["Search"]..."/>
                     <button type="submit" class="btn buttonSearch">
-                        <i class="material-icons">search</i>
+                        <i class="material-icons">@Localizer["Search"]</i>
                     </button>
                 </form>
             </div>
@@ -18,7 +27,7 @@
         </div>
     </div>
     <div class="row frontPageContent">
-        <h3 id="latestPosts">Latest Posts</h3>
+        <h3 id="latestPosts">@Localizer["LatestPosts"]</h3>
         <table class="table table-hover" id="latestPostsTable">
             <tbody>
             @foreach (var post in Model.LatestPosts)
