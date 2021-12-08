@@ -139,3 +139,4 @@ D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.Resource
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.Resources.Views.Topic.Topic.de.resources
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.Resources.Views.Topic.Topic.en.resources
 D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\ForumWebMVC.Resources.Views.Topic.Topic.ru.resources
+D:\WEB-Labs\ForumWebMVC\ForumWebMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
