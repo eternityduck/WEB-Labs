@@ -117,7 +117,7 @@ p {
 
 .main-canvas {
     width: 60%;
-    height: 400%;
+    height: 85vh;
     background-color: #ffffff;
     padding: 30px;
     box-sizing: border-box;
@@ -212,6 +212,10 @@ p {
 }
 
 .labbar-subbutton:active {
+    background-color: #ffffff59;
+}
+
+.picked {
     background-color: #ffffff59;
 }
 

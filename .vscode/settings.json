@@ -17,5 +17,6 @@
     "Git Bash": {
       "source": "Git Bash"
     }
-  }
+  },
+  "liveServer.settings.port": 5501
 }
